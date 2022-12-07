@@ -1,0 +1,99 @@
+nav {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+nav .navlink ul {
+  display: flex;
+  list-style: none;
+}
+nav .navlink ul li {
+  margin-left: 20px;
+}
+nav .navlink ul li a {
+  text-decoration: none;
+  color: rgb(71, 71, 71);
+  padding-bottom: 5px;
+}
+nav .navlink ul li a:hover {
+  border-bottom: 1px solid rgb(71, 71, 71);
+}
+nav .sign {
+  margin-top: -8px;
+}
+nav .sign .light {
+  border: none;
+  background-color: white;
+}
+nav .sign .purple {
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(96, 25, 211);
+  color: white;
+  padding: 8px 20px;
+}
+nav .toggle-button {
+  display: none;
+}
+
+header {
+  margin: 40px 0;
+  display: flex;
+  height: 100vh;
+  gap: 40px;
+}
+header .text {
+  margin-top: 100px;
+}
+header .text .reviews {
+  display: flex;
+}
+header .text .reviews ul {
+  display: flex;
+  margin-left: -30px;
+}
+header .text .reviews ul li {
+  list-style: none;
+}
+header .text .reviews p {
+  margin: 3px 20px;
+}
+header .text .desk h1 {
+  font-size: 60px;
+}
+header .text .desk p {
+  color: rgb(71, 71, 71);
+}
+header .text .desk .start {
+  border: none;
+  background-color: rgb(96, 25, 211);
+  border-radius: 3px;
+  padding: 8px 20px;
+  color: white;
+}
+header .text .desk a {
+  margin-left: 20px;
+  color: rgb(96, 25, 211);
+  text-decoration: none;
+  border-bottom: 2px solid rgb(96, 25, 211);
+  padding-bottom: 1px;
+}
+header .text .green {
+  margin: 10px -30px;
+}
+header .text .green ul {
+  display: flex;
+}
+header .text .green ul li {
+  display: flex;
+  margin-right: 20px;
+}
+header .text .green ul li p {
+  margin: 20px 0 20px 10px;
+}
+header .pic {
+  width: 500px;
+}
+header .pic .picture {
+  width: 500px;
+}/*# sourceMappingURL=style.css.map */

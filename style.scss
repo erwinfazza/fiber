@@ -1,0 +1,109 @@
+$purple: rgb(96, 25, 211);
+$grey: rgb(71, 71, 71);
+
+// navbar
+nav {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  .navlink ul {
+    display: flex;
+    list-style: none;
+    li {
+      margin-left: 20px;
+      a {
+        text-decoration: none;
+        color: $grey;
+        padding-bottom: 5px;
+      }
+      a:hover {
+        border-bottom: 1px solid $grey;
+      }
+    }
+  }
+  .sign {
+    margin-top: -8px;
+    .light {
+      border: none;
+      background-color: white;
+    }
+    .purple {
+      border: none;
+      border-radius: 3px;
+      background-color: $purple;
+      color: white;
+      padding: 8px 20px;
+    }
+  }
+  .toggle-button {
+    display: none;
+  }
+}
+// navbar end
+
+// header
+header {
+  margin: 40px 0;
+  display: flex;
+  height: 100vh;
+  gap: 40px;
+  .text {
+    margin-top: 100px;
+
+    .reviews {
+      display: flex;
+      ul {
+        display: flex;
+        margin-left: -30px;
+        li {
+          list-style: none;
+        }
+      }
+      p {
+        margin: 3px 20px;
+      }
+    }
+    .desk {
+      h1 {
+        font-size: 60px;
+      }
+      p {
+        color: $grey;
+      }
+      .start {
+        border: none;
+        background-color: $purple;
+        border-radius: 3px;
+        padding: 8px 20px;
+        color: white;
+      }
+      a {
+        margin-left: 20px;
+        color: $purple;
+        text-decoration: none;
+        border-bottom: 2px solid $purple;
+        padding-bottom: 1px;
+      }
+    }
+    .green {
+      margin: 10px -30px;
+      ul {
+        display: flex;
+        li {
+          display: flex;
+          margin-right: 20px;
+          p {
+            margin: 20px 0 20px 10px;
+          }
+        }
+      }
+    }
+  }
+  .pic {
+    width: 500px;
+
+    .picture {
+      width: 500px;
+    }
+  }
+}
