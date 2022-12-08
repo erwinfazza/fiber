@@ -28,7 +28,7 @@ nav .sign .light {
 nav .sign .purple {
   border: none;
   border-radius: 3px;
-  background-color: rgb(96, 25, 211);
+  background-color: rgb(71, 46, 214);
   color: white;
   padding: 8px 20px;
 }
@@ -43,7 +43,7 @@ header {
   gap: 40px;
 }
 header .text {
-  margin-top: 100px;
+  margin-top: 70px;
 }
 header .text .reviews {
   display: flex;
@@ -66,16 +66,16 @@ header .text .desk p {
 }
 header .text .desk .start {
   border: none;
-  background-color: rgb(96, 25, 211);
+  background-color: rgb(71, 46, 214);
   border-radius: 3px;
   padding: 8px 20px;
   color: white;
 }
 header .text .desk a {
   margin-left: 20px;
-  color: rgb(96, 25, 211);
+  color: rgb(71, 46, 214);
   text-decoration: none;
-  border-bottom: 2px solid rgb(96, 25, 211);
+  border-bottom: 2px solid rgb(71, 46, 214);
   padding-bottom: 1px;
 }
 header .text .green {
@@ -95,5 +95,42 @@ header .pic {
   width: 500px;
 }
 header .pic .picture {
+  width: 500px;
+}
+
+main .section-1 {
+  width: 600px;
+}
+main .section-2 {
+  display: flex;
+  margin: 50px 0;
+}
+main .section-2 .hitam {
+  font-weight: bold;
+  margin-top: 10px;
+}
+main .section-3 {
+  border-radius: 6px;
+  margin: 30px 0;
+  height: 405px;
+  background-color: rgb(71, 46, 214);
+  color: white;
+  display: flex;
+}
+main .section-3 .left {
+  margin: 110px 30px;
+}
+main .section-3 .left .btn-white {
+  background-color: white;
+  color: rgb(71, 46, 214);
+  border: none;
+  border-radius: 3px;
+  padding: 5px 20px;
+}
+main .section-3 .right {
+  margin: 30px;
+  width: 500px;
+}
+main .section-3 .right img {
   width: 500px;
 }/*# sourceMappingURL=style.css.map */

@@ -1,4 +1,4 @@
-$purple: rgb(96, 25, 211);
+$purple: rgb(71, 46, 214);
 $grey: rgb(71, 71, 71);
 
 // navbar
@@ -48,7 +48,7 @@ header {
   height: 100vh;
   gap: 40px;
   .text {
-    margin-top: 100px;
+    margin-top: 70px;
 
     .reviews {
       display: flex;
@@ -104,6 +104,46 @@ header {
 
     .picture {
       width: 500px;
+    }
+  }
+}
+
+// main
+main {
+  .section-1 {
+    width: 600px;
+  }
+  .section-2 {
+    display: flex;
+    margin: 50px 0;
+    .hitam {
+      font-weight: bold;
+      margin-top: 10px;
+    }
+  }
+  .section-3 {
+    border-radius: 6px;
+    margin: 30px 0;
+    height: 405px;
+    background-color: $purple;
+    color: white;
+    display: flex;
+    .left {
+      margin: 110px 30px;
+      .btn-white {
+        background-color: white;
+        color: $purple;
+        border: none;
+        border-radius: 3px;
+        padding: 5px 20px;
+      }
+    }
+    .right {
+      margin: 30px;
+      width: 500px;
+      img {
+        width: 500px;
+      }
     }
   }
 }
