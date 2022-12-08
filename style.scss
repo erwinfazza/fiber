@@ -25,7 +25,7 @@ nav {
     margin-top: -8px;
     .light {
       border: none;
-      background-color: white;
+      background-color: rgba(255, 255, 255, 0);
     }
     .purple {
       border: none;
@@ -143,6 +143,87 @@ main {
       width: 500px;
       img {
         width: 500px;
+      }
+    }
+  }
+}
+
+// tablet
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    height: 900px;
+    .text {
+      order: 2;
+      align-items: center;
+    }
+  }
+
+  // main
+  main {
+    margin-top: 200px;
+    .section-2 {
+      flex-direction: column;
+    }
+    .section-3 {
+      flex-direction: column;
+      height: 672px;
+      .left {
+        margin-top: 50px;
+      }
+      .right {
+        img {
+          width: 450px;
+        }
+      }
+    }
+  }
+}
+// mobile
+@media screen and (max-width: 576px) {
+  // navbar
+  nav {
+    .navlink {
+      display: none;
+      ul {
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: -10px;
+        align-items: center;
+        background-color: white;
+        width: 100vw;
+        li {
+          margin-bottom: 10px;
+        }
+      }
+    }
+    .navlink.active {
+      display: flex;
+    }
+    .sign {
+      position: absolute;
+      top: 630px;
+      left: 200px;
+    }
+    .toggle-button {
+      display: block;
+    }
+  }
+  // main
+  main {
+    .section-1 {
+      padding: 30px;
+    }
+    .section-2 {
+      padding: 30px;
+    }
+    .section-3 {
+      padding: 15px;
+      .right {
+        img {
+          width: 400px;
+        }
       }
     }
   }

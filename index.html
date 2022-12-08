@@ -116,6 +116,14 @@
         </div>
       </div>
     </main>
+    <script>
+      const toggleButton = document.getElementsByClassName("toggle-button")[0];
+      const navLink = document.getElementsByClassName("navlink")[0];
+
+      toggleButton.addEventListener("click", () => {
+        navLink.classList.toggle("active");
+      });
+    </script>
     <script src="js/all.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>

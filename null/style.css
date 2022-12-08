@@ -23,7 +23,7 @@ nav .sign {
 }
 nav .sign .light {
   border: none;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0);
 }
 nav .sign .purple {
   border: none;
@@ -133,4 +133,71 @@ main .section-3 .right {
 }
 main .section-3 .right img {
   width: 500px;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    height: 900px;
+  }
+  header .text {
+    order: 2;
+    align-items: center;
+  }
+  main {
+    margin-top: 200px;
+  }
+  main .section-2 {
+    flex-direction: column;
+  }
+  main .section-3 {
+    flex-direction: column;
+    height: 672px;
+  }
+  main .section-3 .left {
+    margin-top: 50px;
+  }
+  main .section-3 .right img {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 576px) {
+  nav .navlink {
+    display: none;
+  }
+  nav .navlink ul {
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: -10px;
+    align-items: center;
+    background-color: white;
+    width: 100vw;
+  }
+  nav .navlink ul li {
+    margin-bottom: 10px;
+  }
+  nav .navlink.active {
+    display: flex;
+  }
+  nav .sign {
+    position: absolute;
+    top: 630px;
+    left: 200px;
+  }
+  nav .toggle-button {
+    display: block;
+  }
+  main .section-1 {
+    padding: 30px;
+  }
+  main .section-2 {
+    padding: 30px;
+  }
+  main .section-3 {
+    padding: 15px;
+  }
+  main .section-3 .right img {
+    width: 400px;
+  }
 }/*# sourceMappingURL=style.css.map */
