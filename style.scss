@@ -3,7 +3,9 @@ $grey: rgb(71, 71, 71);
 
 body {
   overflow-x: hidden;
+  font-family: "Inter", sans-serif;
 }
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
 // navbar
 nav {
   margin-top: 40px;
@@ -178,7 +180,7 @@ section {
       margin-top: 10px;
       background-color: white;
       border-radius: 4px;
-      padding: 10px 80px;
+      padding: 10px 70px;
       border: 0.5px solid grey;
       color: $purple;
       font-weight: bold;
@@ -210,7 +212,7 @@ section {
       margin-top: 10px;
       background-color: white;
       border-radius: 4px;
-      padding: 10px 70px;
+      padding: 10px 60px;
       border: 0.5px solid grey;
       color: $purple;
       font-weight: bold;
@@ -242,7 +244,7 @@ section {
       margin-top: 10px;
       background-color: white;
       border-radius: 4px;
-      padding: 10px 70px;
+      padding: 10px 60px;
       border: 0.5px solid grey;
       color: $purple;
       font-weight: bold;

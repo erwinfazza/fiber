@@ -1,5 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
 body {
   overflow-x: hidden;
+  font-family: "Inter", sans-serif;
 }
 
 nav {
@@ -167,7 +169,7 @@ section .card-1 .btn-card {
   margin-top: 10px;
   background-color: white;
   border-radius: 4px;
-  padding: 10px 80px;
+  padding: 10px 70px;
   border: 0.5px solid grey;
   color: rgb(71, 46, 214);
   font-weight: bold;
@@ -199,7 +201,7 @@ section .card-2 .btn-card {
   margin-top: 10px;
   background-color: white;
   border-radius: 4px;
-  padding: 10px 70px;
+  padding: 10px 60px;
   border: 0.5px solid grey;
   color: rgb(71, 46, 214);
   font-weight: bold;
@@ -231,7 +233,7 @@ section .card-3 .btn-card {
   margin-top: 10px;
   background-color: white;
   border-radius: 4px;
-  padding: 10px 70px;
+  padding: 10px 60px;
   border: 0.5px solid grey;
   color: rgb(71, 46, 214);
   font-weight: bold;
