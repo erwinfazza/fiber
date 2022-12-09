@@ -1,6 +1,9 @@
 $purple: rgb(71, 46, 214);
 $grey: rgb(71, 71, 71);
 
+body {
+  overflow-x: hidden;
+}
 // navbar
 nav {
   margin-top: 40px;
@@ -148,6 +151,188 @@ main {
   }
 }
 
+// section
+section {
+  margin: 100px 0;
+  display: flex;
+  gap: 20px;
+  .card-1 {
+    border-radius: 5px;
+    border: 0.5px solid grey;
+    padding: 20px;
+    .avatar-1 {
+      display: flex;
+      .name {
+        margin-left: 20px;
+        h6 {
+          margin: 3px 0;
+          color: $purple;
+          font-weight: bold;
+        }
+      }
+    }
+    p {
+      margin: 10px 0;
+    }
+    .btn-card {
+      margin-top: 10px;
+      background-color: white;
+      border-radius: 4px;
+      padding: 10px 80px;
+      border: 0.5px solid grey;
+      color: $purple;
+      font-weight: bold;
+    }
+    .btn-card:hover {
+      color: white;
+      background-color: $purple;
+    }
+  }
+  .card-2 {
+    border-radius: 5px;
+    border: 0.5px solid grey;
+    padding: 20px;
+    .avatar-2 {
+      display: flex;
+      .name {
+        margin-left: 20px;
+        h6 {
+          margin: 3px 0;
+          color: $purple;
+          font-weight: bold;
+        }
+      }
+    }
+    p {
+      margin: 10px 0;
+    }
+    .btn-card {
+      margin-top: 10px;
+      background-color: white;
+      border-radius: 4px;
+      padding: 10px 70px;
+      border: 0.5px solid grey;
+      color: $purple;
+      font-weight: bold;
+    }
+    .btn-card:hover {
+      color: white;
+      background-color: $purple;
+    }
+  }
+  .card-3 {
+    border-radius: 5px;
+    border: 0.5px solid grey;
+    padding: 20px;
+    .avatar-3 {
+      display: flex;
+      .name {
+        margin-left: 20px;
+        h6 {
+          margin: 3px 0;
+          color: $purple;
+          font-weight: bold;
+        }
+      }
+    }
+    p {
+      margin: 10px 0;
+    }
+    .btn-card {
+      margin-top: 10px;
+      background-color: white;
+      border-radius: 4px;
+      padding: 10px 70px;
+      border: 0.5px solid grey;
+      color: $purple;
+      font-weight: bold;
+    }
+    .btn-card:hover {
+      color: white;
+      background-color: $purple;
+    }
+  }
+}
+
+// footer
+footer {
+  span {
+    color: black;
+    font-weight: bold;
+  }
+  p {
+    margin-top: 10px;
+  }
+  .satu {
+    ul {
+      margin-left: -31px;
+      li {
+        list-style: none;
+        margin-top: 10px;
+        a {
+          text-decoration: none;
+          color: $grey;
+          cursor: pointer;
+        }
+        a:hover {
+          color: black;
+        }
+      }
+    }
+  }
+  .dua {
+    ul {
+      margin-left: -31px;
+      li {
+        list-style: none;
+        margin-top: 10px;
+        a {
+          text-decoration: none;
+          color: $grey;
+          cursor: pointer;
+        }
+        a:hover {
+          color: black;
+        }
+      }
+    }
+  }
+  .tiga {
+    ul {
+      margin-left: -31px;
+      li {
+        list-style: none;
+        margin-top: 10px;
+        a {
+          text-decoration: none;
+          color: $grey;
+          cursor: pointer;
+        }
+        a:hover {
+          color: black;
+        }
+      }
+    }
+  }
+  .empat {
+    ul {
+      margin-left: -31px;
+      li {
+        list-style: none;
+        margin-top: 10px;
+        a {
+          text-decoration: none;
+          color: $grey;
+          cursor: pointer;
+        }
+        a:hover {
+          color: black;
+        }
+      }
+    }
+  }
+}
+
 // tablet
 @media screen and (max-width: 768px) {
   header {
@@ -175,6 +360,14 @@ main {
         img {
           width: 450px;
         }
+      }
+    }
+  }
+  section {
+    flex-direction: column;
+    .card-1 {
+      .btn-card {
+        align-self: center;
       }
     }
   }
@@ -226,5 +419,8 @@ main {
         }
       }
     }
+  }
+  section {
+    flex-direction: column;
   }
 }

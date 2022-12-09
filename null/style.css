@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 nav {
   margin-top: 40px;
   display: flex;
@@ -135,6 +139,176 @@ main .section-3 .right img {
   width: 500px;
 }
 
+section {
+  margin: 100px 0;
+  display: flex;
+  gap: 20px;
+}
+section .card-1 {
+  border-radius: 5px;
+  border: 0.5px solid grey;
+  padding: 20px;
+}
+section .card-1 .avatar-1 {
+  display: flex;
+}
+section .card-1 .avatar-1 .name {
+  margin-left: 20px;
+}
+section .card-1 .avatar-1 .name h6 {
+  margin: 3px 0;
+  color: rgb(71, 46, 214);
+  font-weight: bold;
+}
+section .card-1 p {
+  margin: 10px 0;
+}
+section .card-1 .btn-card {
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 4px;
+  padding: 10px 80px;
+  border: 0.5px solid grey;
+  color: rgb(71, 46, 214);
+  font-weight: bold;
+}
+section .card-1 .btn-card:hover {
+  color: white;
+  background-color: rgb(71, 46, 214);
+}
+section .card-2 {
+  border-radius: 5px;
+  border: 0.5px solid grey;
+  padding: 20px;
+}
+section .card-2 .avatar-2 {
+  display: flex;
+}
+section .card-2 .avatar-2 .name {
+  margin-left: 20px;
+}
+section .card-2 .avatar-2 .name h6 {
+  margin: 3px 0;
+  color: rgb(71, 46, 214);
+  font-weight: bold;
+}
+section .card-2 p {
+  margin: 10px 0;
+}
+section .card-2 .btn-card {
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 4px;
+  padding: 10px 70px;
+  border: 0.5px solid grey;
+  color: rgb(71, 46, 214);
+  font-weight: bold;
+}
+section .card-2 .btn-card:hover {
+  color: white;
+  background-color: rgb(71, 46, 214);
+}
+section .card-3 {
+  border-radius: 5px;
+  border: 0.5px solid grey;
+  padding: 20px;
+}
+section .card-3 .avatar-3 {
+  display: flex;
+}
+section .card-3 .avatar-3 .name {
+  margin-left: 20px;
+}
+section .card-3 .avatar-3 .name h6 {
+  margin: 3px 0;
+  color: rgb(71, 46, 214);
+  font-weight: bold;
+}
+section .card-3 p {
+  margin: 10px 0;
+}
+section .card-3 .btn-card {
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 4px;
+  padding: 10px 70px;
+  border: 0.5px solid grey;
+  color: rgb(71, 46, 214);
+  font-weight: bold;
+}
+section .card-3 .btn-card:hover {
+  color: white;
+  background-color: rgb(71, 46, 214);
+}
+
+footer span {
+  color: black;
+  font-weight: bold;
+}
+footer p {
+  margin-top: 10px;
+}
+footer .satu ul {
+  margin-left: -31px;
+}
+footer .satu ul li {
+  list-style: none;
+  margin-top: 10px;
+}
+footer .satu ul li a {
+  text-decoration: none;
+  color: rgb(71, 71, 71);
+  cursor: pointer;
+}
+footer .satu ul li a:hover {
+  color: black;
+}
+footer .dua ul {
+  margin-left: -31px;
+}
+footer .dua ul li {
+  list-style: none;
+  margin-top: 10px;
+}
+footer .dua ul li a {
+  text-decoration: none;
+  color: rgb(71, 71, 71);
+  cursor: pointer;
+}
+footer .dua ul li a:hover {
+  color: black;
+}
+footer .tiga ul {
+  margin-left: -31px;
+}
+footer .tiga ul li {
+  list-style: none;
+  margin-top: 10px;
+}
+footer .tiga ul li a {
+  text-decoration: none;
+  color: rgb(71, 71, 71);
+  cursor: pointer;
+}
+footer .tiga ul li a:hover {
+  color: black;
+}
+footer .empat ul {
+  margin-left: -31px;
+}
+footer .empat ul li {
+  list-style: none;
+  margin-top: 10px;
+}
+footer .empat ul li a {
+  text-decoration: none;
+  color: rgb(71, 71, 71);
+  cursor: pointer;
+}
+footer .empat ul li a:hover {
+  color: black;
+}
+
 @media screen and (max-width: 768px) {
   header {
     flex-direction: column;
@@ -159,6 +333,12 @@ main .section-3 .right img {
   }
   main .section-3 .right img {
     width: 450px;
+  }
+  section {
+    flex-direction: column;
+  }
+  section .card-1 .btn-card {
+    align-self: center;
   }
 }
 @media screen and (max-width: 576px) {
@@ -199,5 +379,8 @@ main .section-3 .right img {
   }
   main .section-3 .right img {
     width: 400px;
+  }
+  section {
+    flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */
